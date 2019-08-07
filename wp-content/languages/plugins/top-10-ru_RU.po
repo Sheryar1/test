@@ -1,0 +1,1200 @@
+# Translation of Plugins - Top 10  &#8211; Popular posts plugin for WordPress - Development (trunk) in Russian
+# This file is distributed under the same license as the Plugins - Top 10  &#8211; Popular posts plugin for WordPress - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-03-04 19:37:05+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Top 10  &#8211; Popular posts plugin for WordPress - Development (trunk)\n"
+
+#: includes/admin/tools.php:86 includes/admin/tools.php:88
+msgid "Recreate Primary Key"
+msgstr "Пересоздать первичный ключ"
+
+#: includes/admin/tools.php:30
+msgid "Primary Key has been recreated"
+msgstr "Первичный ключ пересоздан"
+
+#: includes/admin/tools.php:111
+msgid "From v2.5.x, Top 10 stores the settings in a new key in the database. This will delete the old settings for the current blog. It is recommended that you do this at the earliest after upgrade. However, you should do this only if you are comfortable with the new settings."
+msgstr "Новые настройки не будут затронуты. После обновления плагина рекомендуем сделать удаление старых настроек."
+
+#: includes/admin/tools.php:108
+msgid "This will delete the settings before v2.5.x. Proceed?"
+msgstr "Настройки старых версий плагина будут удалены. Продолжить?"
+
+#: includes/admin/tools.php:108
+msgid "Delete old settings"
+msgstr "Удалить старые настройки"
+
+#: includes/admin/tools.php:48
+msgid "Old settings key has been deleted"
+msgstr "Старый ключ настроек удален"
+
+#: includes/modules/class-top-ten-count-widget.php:32
+msgid "Display overall count"
+msgstr "Отображает общий счетчик"
+
+#: includes/modules/class-top-ten-count-widget.php:30
+msgid "Overall count [Top 10]"
+msgstr "Общий счетчик [Top 10]"
+
+#: includes/admin/tools.php:106
+msgid "Other tools"
+msgstr "Другие инструменты"
+
+#: includes/admin/tools.php:103
+msgid "This will reset the Top 10 tables. If you are running Top 10 on multisite then it will delete the popular posts across the entire network. This cannot be reversed. Make sure that your database has been backed up before proceeding"
+msgstr "Это приведет к сбросу таблиц ТОП 10. Если вы используете плагин в мультисайте, то будут сброшены популярные записи по всей сети. Рекомендуем сделать резервную копию базы данных"
+
+#: includes/admin/tools.php:100
+msgid "Reset Daily Popular Posts Network-wide"
+msgstr "Сбросить ежедневные популярные записи"
+
+#: includes/admin/tools.php:99
+msgid "Reset Popular Posts Network-wide"
+msgstr "Сбросить популярные записи"
+
+#: includes/admin/tools.php:97
+msgid "Reset database"
+msgstr "Сбросить БД"
+
+#: includes/admin/tools.php:83
+msgid "Clear the Top 10 cache. This will also be cleared automatically when you save the settings page."
+msgstr "Очистить кэш плагина. Кэш также автоматически очищается при сохранении настроек."
+
+#: includes/admin/sidebar.php:65
+msgid "Github repository"
+msgstr "Репозиторий Github"
+
+#: includes/admin/sidebar.php:45
+msgid "Top 10 plugin homepage"
+msgstr "Страница плагина"
+
+#: includes/admin/settings-page.php:634
+msgctxt "tag delimiter"
+msgid ","
+msgstr ","
+
+#: includes/admin/settings-page.php:312
+msgid "Modified from default setting"
+msgstr "Изменено по умолчанию"
+
+#. translators: %s: Setting ID.
+#: includes/admin/settings-page.php:155
+msgid "The callback function used for the <strong>%s</strong> setting is missing."
+msgstr "Функция обратного вызова, используемая для настроек <strong>%s</strong> отсутствует."
+
+#: includes/admin/settings-page.php:81
+msgid "Reset all settings"
+msgstr "Сбросить все настройки"
+
+#: includes/admin/settings-page.php:79
+msgid "Do you really want to reset all these settings to their default values?"
+msgstr "Вы действительно хотите сбросить все параметры до значений по умолчанию?"
+
+#: includes/admin/settings-page.php:70
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: includes/admin/save-settings.php:119
+msgid "Settings updated."
+msgstr "Настройки обновлены."
+
+#: includes/admin/save-settings.php:51
+msgid "Settings have been reset to their default values. Reload this page to view the updated settings"
+msgstr "Настройки были сброшены до значений по умолчанию. Перезагрузите страницу для просмотра обновленных настроек"
+
+#: includes/admin/default-settings.php:826
+msgid "Disable thumbnails and no longer include the default style sheet included in the plugin"
+msgstr "Отключить миниатюры и больше не включать таблицу стилей по умолчанию включенную в плагин"
+
+#: includes/admin/default-settings.php:714
+msgid "Run maintenance"
+msgstr "Запустить обслуживание"
+
+#: includes/admin/default-settings.php:704
+msgid "Minute"
+msgstr "Минуты"
+
+#: includes/admin/default-settings.php:694
+msgid "Hour"
+msgstr "Часы"
+
+#: includes/admin/default-settings.php:689
+msgid "The next two options allow you to set the time to run the cron."
+msgstr "Следующие два параметра позволяют установить время запуска планировщика."
+
+#: includes/admin/default-settings.php:682
+msgid "Cleaning the database at regular intervals could improve performance, especially on high traffic blogs. Enabling maintenance will automatically delete entries older than 90 days in the daily tables."
+msgstr "Очистка базы данных через регулярные промежутки времени может повысить производительность, особенно на сайтах с высоким трафиком. Включение обслуживания автоматически удаляет записи старше 90 дней в ежедневных таблицах."
+
+#: includes/admin/default-settings.php:681
+msgid "Enable scheduled maintenance"
+msgstr "Включить плановое обслуживание"
+
+#: includes/admin/default-settings.php:650
+msgid "Custom CSS"
+msgstr "Ваш код CSS"
+
+#: includes/admin/default-settings.php:642
+msgid "Popular posts style"
+msgstr "Стиль популярных записей"
+
+#: includes/admin/default-settings.php:612
+msgid "Enter the full URL of the image that you wish to display if no thumbnail is found. This image will be displayed below."
+msgstr "Введите полный URL-адрес изображения, которое вы хотите отобразить, если миниатюра не найдена. Это изображение будет показано ниже."
+
+#: includes/admin/default-settings.php:598
+msgid "The plugin will fetch the first image in the post content if this is enabled. This can slow down the loading of your page if the first image in the followed posts is large in file-size."
+msgstr "Плагин будет извлекать первое изображение из контента записи, если такое изображение присутствует. Это может замедлить загрузку вашей страницы, если первое изображение имеет большой размер."
+
+#: includes/admin/default-settings.php:597
+msgid "Get first image"
+msgstr "Использовать первое изображение"
+
+#: includes/admin/default-settings.php:591
+msgid "The value of this field should contain the URL of the image and can be set in the metabox in the Edit Post screen"
+msgstr "Значение этого поля должно содержать URL-адрес изображения и может быть установлено в мета-поле на странице редактирования записи"
+
+#: includes/admin/default-settings.php:590
+msgid "Thumbnail meta field name"
+msgstr "Название мета-поля миниатюры"
+
+#: includes/admin/default-settings.php:585
+msgid "No width or height set. You will need to use external styles to force any width or height of your choice."
+msgstr "Высота и ширина не указаны. Нужно подключить внешние стили, чтобы указать размеры."
+
+#. translators: %s: Code.
+#: includes/admin/default-settings.php:584
+msgid "Use HTML attributes to set the width and height: e.g. %s"
+msgstr "Используйте атрибуты HTML для установки ширины и высоты, напр.: %s"
+
+#. translators: %s: Code.
+#: includes/admin/default-settings.php:582
+msgid "Use CSS to set the width and height: e.g. %s"
+msgstr "Используйте CSS для установки ширины и высоты, напр.: %s"
+
+#: includes/admin/default-settings.php:576
+msgid "Thumbnail size attributes"
+msgstr "Атрибуты размера миниатюр"
+
+#: includes/admin/default-settings.php:563
+msgid "Check this box to hard crop the thumbnails. i.e. force the width and height above vs. maintaining proportions."
+msgstr "Установите этот флажок, чтобы обрезать миниатюры. т.е. увеличивать ширину и высоту по сравнению с поддерживающими пропорциями."
+
+#. translators: 1: OTF Regenerate plugin link, 2: Force regenerate plugin link.
+#: includes/admin/default-settings.php:539
+msgid "You can choose from existing image sizes above or create a custom size. If you have chosen Custom size above, then enter the width, height and crop settings below. For best results, use a cropped image. If you change the width and/or height below, existing images will not be automatically resized."
+msgstr "Вы можете выбрать из существующих размеров изображений выше или создать собственный размер. Если вы выбрали Произвольный размер выше, введите параметры ширины, высоты и обрезки ниже. Для получения наилучших результатов используйте обрезанное изображение. Если вы измените ширину и/или высоту ниже, существующие изображения не будут автоматически изменены."
+
+#: includes/admin/default-settings.php:494
+msgid "After each list item"
+msgstr "После каждого элемента списка"
+
+#: includes/admin/default-settings.php:487
+msgid "Before each list item"
+msgstr "Перед каждым элементом списка"
+
+#: includes/admin/default-settings.php:480
+msgid "After the list of posts"
+msgstr "После записей"
+
+#: includes/admin/default-settings.php:473
+msgid "Before the list of posts"
+msgstr "Перед записями"
+
+#: includes/admin/default-settings.php:467
+msgid "HTML to display"
+msgstr "HTML для отображения"
+
+#: includes/admin/default-settings.php:269
+msgid "Comma-separated list of post or page IDs to exclude displaying the top posts on. e.g. 188,320,500"
+msgstr "Список ID записей и страниц через запятую для исключения отображения в топовых записях, напр.: 188,320,500"
+
+#: includes/admin/default-settings.php:268
+msgid "Exclude display on these post IDs"
+msgstr "Исключить записи (ID)"
+
+#: includes/admin/default-settings.php:460
+msgid "Add nofollow to links"
+msgstr "Добавить атрибут nofollow для ссылок"
+
+#: includes/admin/default-settings.php:438
+msgid "Show number of views"
+msgstr "Показать количество просмотров"
+
+#: includes/admin/default-settings.php:431
+msgid "Show author"
+msgstr "Показать автора"
+
+#: includes/admin/default-settings.php:424
+msgid "Show date"
+msgstr "Показать дату"
+
+#: includes/admin/default-settings.php:409
+msgid "Show post excerpt"
+msgstr "Отображать анонс записи"
+
+#: includes/admin/default-settings.php:403
+msgid "Enter the custom text that will be displayed if the second option is selected above"
+msgstr "Введите произвольный текст, который будет отображаться, если выбран второй вариант выше"
+
+#: includes/admin/default-settings.php:402
+msgid "Custom text"
+msgstr "Произвольный текст"
+
+#: includes/admin/default-settings.php:397
+msgid "Display custom text"
+msgstr "Отображать произвольный текст"
+
+#: includes/admin/default-settings.php:390
+msgid "Show when no posts are found"
+msgstr "Отображать когда записи отсутствуют"
+
+#: includes/admin/default-settings.php:385
+msgid "Currently trending:"
+msgstr "В тренде:"
+
+#: includes/admin/default-settings.php:382
+msgid "Heading of posts for daily/custom period lists"
+msgstr "Заголовок записей для ежедневных/произвольных периодов"
+
+#: includes/admin/default-settings.php:377
+msgid "Popular posts:"
+msgstr "Популярные записи:"
+
+#: includes/admin/default-settings.php:375
+#: includes/admin/default-settings.php:383
+msgid "Displayed before the list of the posts as a the master heading"
+msgstr "Отображается перед списком записей в виде основного заголовка"
+
+#: includes/admin/default-settings.php:374
+msgid "Heading of posts"
+msgstr "Заголовок записей"
+
+#: includes/admin/default-settings.php:368
+msgid "Customize the output"
+msgstr "Настроить вывод"
+
+#: includes/admin/default-settings.php:361
+msgid "This is a readonly field that is automatically populated based on the above input when the settings are saved. These might differ from the IDs visible in the Categories page which use the term_id. Top 10 uses the term_taxonomy_id which is unique to this taxonomy."
+msgstr "Это только читаемое поле, которое автоматически заполняется на основе указанного выше ввода при сохранении настроек. Они могут отличаться от идентификаторов, отображаемых на странице Категории, в которых используется термин term_id. В Toп 10 используется термин term_taxonomy_id, который является уникальным для этой таксономии."
+
+#: includes/admin/default-settings.php:360
+msgid "Exclude category IDs"
+msgstr "Исключить категории ID"
+
+#: includes/admin/default-settings.php:342
+msgid "Comma-separated list of post or page IDs to exclude from the list. e.g. 188,320,500"
+msgstr "Укажите через запятую список ID записей и страниц, которые нужно исключить, напр.: 188,320,500"
+
+#: includes/admin/default-settings.php:341
+msgid "Post/page IDs to exclude"
+msgstr "Исключить Записи/Страници по ID"
+
+#: includes/admin/default-settings.php:334
+msgid "Post types to include"
+msgstr "Типы записей для включения"
+
+#: includes/admin/default-settings.php:328
+msgid "This options allows you to only show posts that have been published within the above day range. Applies to both overall posts and daily posts lists. e.g. 365 days will only show posts published in the last year in the popular posts lists. Enter 0 for no restriction."
+msgstr "Эти параметры позволяют показывать только записи, опубликованные в пределах дневного диапазона. Например, за период 365 дней - будут показываться записи опубликованные в прошлом году в списках популярных записей. Введите 0 без ограничений."
+
+#: includes/admin/default-settings.php:319
+msgid "Number of posts to display"
+msgstr "Количество записей для отображения"
+
+#: includes/admin/default-settings.php:282
+msgid "Show views to non-admins"
+msgstr "Показать просмотры для пользователей, которые не являются админами"
+
+#: includes/admin/default-settings.php:276
+msgid "Adds three columns called Total Views, Today's Views and Views to All Posts and All Pages. You can selectively disable these by pulling down the Screen Options from the top right of the respective screens."
+msgstr "Будут добавлены три колонки: Всего просмотров, Сегодня, Просмотры для всех записей и страниц. Вы можете выборочно отключить их, настроив параметры экрана в правом верхнем углу."
+
+#: includes/admin/default-settings.php:275
+msgid "Page views in admin"
+msgstr "Просмотры страниц в админке"
+
+#: includes/admin/default-settings.php:262
+msgid "Uncheck to stop tracking logged in users. Only logged out visitors will be tracked if this is disabled. Unchecking this will override the above setting."
+msgstr "Снимите флажок, чтобы остановить отслеживание зарегистрированных пользователей. Если снять флажок, то это приведет к переопределению вышеуказанной опции."
+
+#: includes/admin/default-settings.php:261
+msgid "Track logged-in users"
+msgstr "Отслеживать зарегистрированных пользователей"
+
+#: includes/admin/default-settings.php:254
+msgid "Authors"
+msgstr "Авторы"
+
+#: includes/admin/default-settings.php:247
+msgid "Uncheck above to disable tracking if the current user falls into any one of these groups."
+msgstr "Снимите флажок, чтобы отключить отслеживание, если текущий пользователь попадает в одну из этих групп."
+
+#: includes/admin/default-settings.php:152
+msgid "A no-follow link to the plugin homepage will be added as the last item of the popular posts."
+msgstr "Ссылка на страницу плагина, которая ставится в виджете последних записей будет скрыта от индексации."
+
+#: includes/admin/default-settings.php:131
+msgid "If this is checked, the tables containing the counter statistics are removed from the database if you choose to uninstall/delete the plugin. Keep this unchecked if you choose to reinstall the plugin and do not want to lose your counter data."
+msgstr "Если этот флажок установлен, таблицы содержащие статистику счетчика будут удалены при удалении плагина. Не устанавливайте этот флажок, если вы решите переустановить плагин и не хотите потерять данные счетчика."
+
+#: includes/admin/default-settings.php:99
+msgid "The next two options allow you to set the default range for the custom period. This was previously called the daily range. This can be overridden in the widget."
+msgstr "Следующие два параметра позволяют установить диапазон по умолчанию для произвольного периода. Ранее это называлось суточным диапазоном. Это можно переопределить в виджетах."
+
+#: includes/admin/default-settings.php:98
+msgid "Default custom period range"
+msgstr "Диапазон произвольных периодов по умолчанию"
+
+#: includes/admin/default-settings.php:85
+msgid "Enter the number of seconds to cache the output."
+msgstr "Введите количество секунд для кэширования."
+
+#: includes/admin/default-settings.php:84
+msgid "Time to cache"
+msgstr "Время кэширования"
+
+#: includes/admin/help-tab.php:143
+msgid "Clear the cache, reset the popular posts tables plus some miscellaneous fixes for older versions of Top 10."
+msgstr "Очищает кэш плагина, сбрасывает популярные записи и некоторые исправления для старых версий плагина."
+
+#: includes/admin/help-tab.php:142
+msgid "This screen provides some tools that help maintain certain features of Top 10."
+msgstr "Здесь представлены некоторые дополнительные инструменты для работы с плагином ТОП 10."
+
+#: includes/admin/help-tab.php:102
+msgid "Choose how often to run maintenance and at what time of the day."
+msgstr "Выберите, как часто запускать обслуживание и в какое время суток."
+
+#: includes/admin/help-tab.php:101
+msgid "This screen provides options to control the maintenance cron."
+msgstr "Здесь вы можете настроить плановое обслуживания."
+
+#: includes/admin/help-tab.php:92
+msgid "Choose for default set of styles or add your own custom CSS to tweak the display of the posts."
+msgstr "Выберите стиль по умолчанию или укажите свои стили для отображения записей."
+
+#: includes/admin/help-tab.php:91
+msgid "This screen provides options to control the look and feel of the popular posts list."
+msgstr "Здесь представлены настройки внешнего вида."
+
+#: includes/admin/help-tab.php:82
+msgid "Set the location and size of the thumbnail. Additionally, you can choose additional sources for the thumbnail i.e. a meta field, first image or a default thumbnail when nothing is available."
+msgstr "Настройте расположение и размер миниатюры. Выберите источник миниатюры."
+
+#: includes/admin/help-tab.php:81
+msgid "This screen provides settings to tweak the thumbnail that can be displayed for each post in the list."
+msgstr "Здесь представлены настройки миниатюры."
+
+#: includes/admin/help-tab.php:79 includes/admin/settings-page.php:128
+msgid "Thumbnail"
+msgstr "Миниатюра"
+
+#: includes/admin/help-tab.php:72
+msgid "Set the number of posts, which categories or posts to exclude, customize what to display and specific basic HTML markup used to create the posts."
+msgstr "Задайте количество записей, укажите категории или записи, которые нужно исключить, настройте отображение и теги HTML."
+
+#: includes/admin/help-tab.php:71
+msgid "This screen provides settings to tweak the output of the list of popular posts."
+msgstr "Здесь представлены настройки вывода списка популярных записей."
+
+#: includes/admin/help-tab.php:69 includes/admin/settings-page.php:127
+msgid "Posts list"
+msgstr "Список записей"
+
+#: includes/admin/help-tab.php:62
+msgid "Choose where to display the counter and customize the text. Select the type of tracker and which user groups to track."
+msgstr "Выберите, где отображать счетчик и настройте текст. Выберите тип трекера и группы пользователей для отслеживания."
+
+#: includes/admin/help-tab.php:61
+msgid "This screen provides settings to tweak the display counter and the tracker."
+msgstr "Здесь представлены нстройки счетчика и трекера."
+
+#: includes/admin/help-tab.php:59 includes/admin/settings-page.php:126
+msgid "Counter/Tracker"
+msgstr "Счетчик"
+
+#: includes/admin/help-tab.php:52
+msgid "Enable the trackers and cache, configure basic tracker settings and uninstall settings."
+msgstr "Включите отслеживание и кэш, настройте параметры отслеживания."
+
+#: includes/admin/help-tab.php:51
+msgid "This screen provides the basic settings for configuring Top 10."
+msgstr "Здесь представлены основные настройки плагина ТОП 10."
+
+#: includes/admin/help-tab.php:49 includes/admin/help-tab.php:140
+#: includes/admin/settings-page.php:125
+msgid "General"
+msgstr "Общие"
+
+#. translators: 1: Github Issues link, 2: Github page.
+#: includes/admin/help-tab.php:40 includes/admin/help-tab.php:131
+msgid "<a href=\"%1$s\">Post an issue</a> on <a href=\"%2$s\">GitHub</a> (bug reports only)."
+msgstr "<a href=\"%1$s\">Опубликовать вопрос</a> на <a href=\"%2$s\">GitHub</a> (только сообщения об ошибках)."
+
+#. translators: 1: Forum link.
+#: includes/admin/help-tab.php:37 includes/admin/help-tab.php:128
+msgid "Support queries should be posted in the <a href=\"%1$s\">WordPress.org support forums</a>."
+msgstr "Запросы поддержки должны быть опубликованы на форуме <a href=\"%1$s\">WordPress.org</a>."
+
+#. translators: 1: Support link.
+#: includes/admin/help-tab.php:35 includes/admin/help-tab.php:126
+msgid "For more information or how to get support visit the <a href=\"%1$s\">WebberZone support site</a>."
+msgstr "Для получения дополнительной информации или получения поддержки посетите <a href=\"%1$s\">сайт WebberZone</a>."
+
+#. translators: 1: Top 10 website, 2: Plugin reviews link.
+#: includes/admin/admin.php:320
+msgid "Thank you for using <a href=\"%1$s\" target=\"_blank\">Top 10</a>! Please <a href=\"%2$s\" target=\"_blank\">rate us</a> on <a href=\"%2$s\" target=\"_blank\">WordPress.org</a>"
+msgstr "Спасибо за то, что выбрали плагин <a href=\"%1$s\" target=\"_blank\">Top 10</a>! Пожалуйста, поставьте нам <a href=\"%2$s\" target=\"_blank\">оценку</a> на сайте <a href=\"%2$s\" target=\"_blank\">WordPress.org</a>"
+
+#: includes/admin/admin.php:202
+msgid "New information not saved. Do you wish to leave the page?"
+msgstr "Новая информация не сохранена. Вы хотите покинуть страницу?"
+
+#: includes/admin/admin.php:48
+msgid "Top 10 Daily Popular Posts"
+msgstr "Топ 10 Популярные записи за день"
+
+#: includes/admin/class-top-ten-statistics.php:74 includes/admin/admin.php:44
+msgid "Top 10 Popular Posts"
+msgstr "Топ 10 Популярные записи"
+
+#: includes/admin/admin.php:37
+msgid "Tools"
+msgstr "Инструменты"
+
+#: includes/admin/admin.php:37 includes/admin/tools.php:68
+msgid "Top 10 Tools"
+msgstr "Топ 10 Инструменты"
+
+#: includes/tracker.php:282
+msgid "Uses admin-ajax.php which is inbuilt within WordPress to process the tracker"
+msgstr "Используется admin-ajax.php, который встроен в WordPress для обработки трекера"
+
+#: includes/tracker.php:281
+msgid "Ajaxurl based"
+msgstr "Основано на Ajaxurl"
+
+#: includes/tracker.php:277
+msgid "Uses query variables to record visits"
+msgstr "Использует переменные запроса для записи посещений"
+
+#: includes/tracker.php:276
+msgid "Query variable based"
+msgstr "На основе переменной запроса"
+
+#: includes/modules/class-top-ten-widget.php:90
+msgid "Offset"
+msgstr "Смещение"
+
+#. translators: 1: Opening a tag, 2: Closing a tag, 3: Opening code tage, 4.
+#. Closing code tag.
+#: includes/admin/default-settings.php:652
+msgid "Do not include %3$sstyle%4$s tags. Check out the %1$sFAQ%2$s for available CSS classes to style."
+msgstr "Не включайте теги %3$sstyle%4$s. Обратитесь к %1$sFAQ%2$s чтобы узнать больше о стилизации."
+
+#: includes/admin/default-settings.php:562
+msgid "Hard crop thumbnails"
+msgstr "Жесткая обрезка миниатюр"
+
+#. translators: 1: OTF Regenerate plugin link, 2: Force regenerate plugin link.
+#: includes/admin/default-settings.php:539
+msgid "I recommend using %1$s or %2$s to regenerate all image sizes."
+msgstr "Мы рекомендуем использовать %1$s или %2$s для генерации всех размеров изображения."
+
+#: includes/admin/default-settings.php:349
+msgid "Comma separated list of category slugs. The field above has an autocomplete so simply start typing in the starting letters and it will prompt you with options. Does not support custom taxonomies."
+msgstr "Список ярлыков категорий через запятую. В поле выше есть автозаполнение, поэтому просто начните вводить начальные буквы и он предложит вам варианты. Не поддерживает пользовательские таксономии."
+
+#: includes/admin/default-settings.php:256
+msgid "Admins"
+msgstr "Админы"
+
+#: includes/admin/default-settings.php:255
+msgid "Editors"
+msgstr "Редакторы"
+
+#: includes/admin/default-settings.php:246
+msgid "Track user groups"
+msgstr "Отслеживать группы пользователей"
+
+#: includes/admin/default-settings.php:231
+msgid "Tracker type"
+msgstr "Тип отслеживания"
+
+#. translators: 1: Opening a tag, 2: Closing a tag, 3: Opening code tage, 4.
+#. Closing code tag.
+#: includes/admin/default-settings.php:203
+msgid "Use %1$s to display the total count, %2$s for daily count and %3$s for overall counts across all posts. Default display is %4$s"
+msgstr "Используйте %1$s для отображения общего счета, %2$s для отображения ежедневного счета и %3$s для для общего подсчета по всем записям. По умолчанию %4$s"
+
+#. translators: 1: Code.
+#: includes/admin/default-settings.php:183
+msgid "If you choose to disable this, please add %1$s to your template file where you want it displayed"
+msgstr "Если хотите отключить это, то добавьте этот код %1$s в файл шаблона, который отвечает за отображение"
+
+#: includes/admin/admin.php:390
+msgid "Contribute"
+msgstr "Участвовать"
+
+#: includes/admin/class-top-ten-statistics.php:103
+msgid "Search Table"
+msgstr "Таблица поиска"
+
+#: includes/admin/class-top-ten-statistics-table.php:494
+msgid "Filter"
+msgstr "Фильтр"
+
+#. Author URI of the plugin
+msgid "https://webberzone.com"
+msgstr "https://webberzone.com"
+
+#. Author of the plugin
+msgid "Ajay D'Souza"
+msgstr "Ajay D'Souza"
+
+#. Description of the plugin
+msgid "Count daily and total visits per post and display the most popular posts based on the number of views"
+msgstr "Количество ежедневных и общих посещений записи, отображение наиболее популярных записей в зависимости от количества просмотров"
+
+#. Plugin URI of the plugin
+msgid "https://webberzone.com/plugins/top-10/"
+msgstr "https://webberzone.com/plugins/top-10/"
+
+#: includes/cron.php:99
+msgid "Once quarterly"
+msgstr "Ежеквартально"
+
+#: includes/cron.php:95
+msgid "Once Monthly"
+msgstr "Ежемесячно"
+
+#: includes/cron.php:91
+msgid "Once Fortnightly"
+msgstr "Раз в две недели"
+
+#: includes/cron.php:87
+msgid "Once Weekly"
+msgstr "Еженедельно"
+
+#: includes/deprecated.php:180 includes/admin/default-settings.php:405
+msgid "No top posts yet"
+msgstr "Топовые записи отсутствуют"
+
+#: includes/deprecated.php:179
+msgid "<h3>Daily Popular</h3>"
+msgstr "<h3>Ежедневно популярное</h3>"
+
+#: includes/deprecated.php:178
+msgid "<h3>Popular Posts</h3>"
+msgstr "<h3>Популярные записи</h3>"
+
+#. translators: 1. Top 10 plugin page link, 2. Link attributes.
+#: includes/public/display-posts.php:219
+msgid "Popular posts by <a href=\"%1$s\" rel=\"nofollow\" %2$s>Top 10 plugin</a>"
+msgstr "Популярные записи - <a href=\"%1$s\" rel=\"nofollow\" %2$s>Плагин Top 10</a>"
+
+#: includes/public/display-posts.php:92
+msgid "posts_only argument has been deprecated. Use get_tptn_pop_posts() to get the posts only."
+msgstr "аргумент posts_only устарел. Используйте get_tptn_pop_posts() чтобы получить только записи."
+
+#: includes/public/output-generator.php:240
+msgid " by "
+msgstr " от "
+
+#: includes/public/media.php:66
+msgid "filter argument has been deprecated"
+msgstr "аргумент фильтра устарел"
+
+#: includes/public/media.php:62
+msgid "thumb_timthumb_q argument has been deprecated"
+msgstr "аргумент thumb_timthumb_q устарел"
+
+#: includes/public/media.php:58
+msgid "thumb_timthumb argument has been deprecated"
+msgstr "аргумент thumb_timthumb устарел"
+
+#: includes/modules/class-top-ten-widget.php:149
+msgid "Post types to include:"
+msgstr "Включить типы записей:"
+
+#: includes/modules/class-top-ten-widget.php:145
+#: includes/admin/default-settings.php:546
+msgid "Thumbnail width"
+msgstr "Ширина миниатюры"
+
+#: includes/modules/class-top-ten-widget.php:139
+#: includes/admin/default-settings.php:554
+msgid "Thumbnail height"
+msgstr "Высота миниатюры"
+
+#: includes/modules/class-top-ten-widget.php:134
+msgid "No thumbnails, only text."
+msgstr "Без минииатюры, только текст."
+
+#: includes/modules/class-top-ten-widget.php:133
+msgid "Only thumbnails, no text"
+msgstr "Только миниатюры, без текста"
+
+#: includes/modules/class-top-ten-widget.php:132
+msgid "Thumbnails inline, after title"
+msgstr "После заголовка"
+
+#: includes/modules/class-top-ten-widget.php:131
+msgid "Thumbnails inline, before title"
+msgstr "Перед заголовком"
+
+#: includes/modules/class-top-ten-widget.php:125
+msgid "Show date?"
+msgstr "Отображать дату?"
+
+#: includes/modules/class-top-ten-widget.php:120
+msgid "Show author?"
+msgstr "Отображать автора?"
+
+#: includes/modules/class-top-ten-widget.php:115
+msgid "Show excerpt?"
+msgstr "Отображать анонс?"
+
+#: includes/modules/class-top-ten-widget.php:110
+msgid "Show count?"
+msgstr "Отображать счетчик?"
+
+#: includes/modules/class-top-ten-widget.php:105
+msgid "hours"
+msgstr "часы"
+
+#: includes/modules/class-top-ten-widget.php:100
+msgid "In days and hours (applies only to custom option above)"
+msgstr "В днях и часах (применяется только к опции выше)"
+
+#: includes/modules/class-top-ten-widget.php:96
+msgid "Custom time period (Enter below)"
+msgstr "Период времени (введите ниже)"
+
+#: includes/modules/class-top-ten-widget.php:85
+msgid "No. of posts"
+msgstr "Количество записей"
+
+#: includes/modules/class-top-ten-widget.php:32
+msgid "Display popular posts"
+msgstr "Отображает популярные записи"
+
+#: includes/modules/class-top-ten-widget.php:30
+msgid "Popular Posts [Top 10]"
+msgstr "Популярные записи [Top 10]"
+
+#: includes/admin/tools.php:122
+msgid "This will delete the duplicate entries in the tables. Proceed?"
+msgstr "Это приведет к удалению повторяющихся записей в таблицах. Продолжить?"
+
+#: includes/admin/tools.php:122
+msgid "Merge duplicates across blog IDs"
+msgstr "Слияние дубликатов по идентификаторам"
+
+#: includes/admin/tools.php:125
+msgid "In older versions, the plugin created entries with duplicate post IDs. Clicking the button below will merge these duplicate IDs"
+msgstr "В более старых версиях плагин создавал записи с двойными идентификаторами записей. Нажатие на кнопку ниже объединит эти повторяющиеся идентификаторы"
+
+#: includes/admin/tools.php:115
+msgid "This will merge post counts for blog IDs 0 and 1. Proceed?"
+msgstr "Это объединит счетчики для идентификаторов записей 0 и 1. Продолжить?"
+
+#: includes/admin/tools.php:115
+msgid "Merge blog ID 0 and 1 post counts"
+msgstr "Объединить идентификаторы записей 0 и 1"
+
+#: includes/admin/tools.php:118
+msgid "This will merge post counts for posts with table entries of 0 and 1"
+msgstr "Это объединит счетчики для записей с таблицей записей 0 и 1"
+
+#: includes/admin/tools.php:100
+msgid "Are you sure you want to reset the daily popular posts?"
+msgstr "Вы уверены, что хотите сбросить популярные записи?"
+
+#: includes/admin/tools.php:99
+msgid "Are you sure you want to reset the popular posts?"
+msgstr "Вы уверены, что хотите сбросить популярные записи?"
+
+#: includes/admin/default-settings.php:722
+msgid "Monthly"
+msgstr "Ежемесячно"
+
+#: includes/admin/default-settings.php:721
+msgid "Fortnightly"
+msgstr "Раз в две недели"
+
+#: includes/admin/default-settings.php:720
+msgid "Weekly"
+msgstr "Еженедельно"
+
+#: includes/admin/default-settings.php:688
+msgid "Time to run maintenance"
+msgstr "Время запуска обслуживания"
+
+#: includes/admin/default-settings.php:825
+msgid "Text only"
+msgstr "Только текст"
+
+#: includes/admin/default-settings.php:831
+msgid "Enabling this option will set the post thumbnail to be before text. Disabling this option will not revert any settings."
+msgstr "Включение этой опции задает миниатюру записи перед текстом. Отключение этой опции не отменяет никаких настроек."
+
+#: includes/admin/default-settings.php:830
+msgid "Left thumbnails"
+msgstr "Миниатюры слева"
+
+#: includes/admin/default-settings.php:821
+msgid "Select this option if you plan to add your own styles"
+msgstr "Выберите этот вариант, если вы планируете добавлять свои собственные стили"
+
+#: includes/admin/default-settings.php:820
+msgid "No styles"
+msgstr "Без стилей"
+
+#: includes/admin/default-settings.php:611 includes/admin/settings-page.php:687
+msgid "Default thumbnail"
+msgstr "Миниатюра по умолчанию"
+
+#: includes/admin/default-settings.php:605
+msgid "If checked, when no thumbnail is found, show a default one from the URL below. If not checked and no thumbnail is found, no image will be shown."
+msgstr "Если миниатюра отсутствует, то будет показано изображение по умолчанию. Но, если и это изображение отсутствует, то ничего не будет показано."
+
+#: includes/admin/default-settings.php:604
+msgid "Use default thumbnail?"
+msgstr "Использовать миниатюру по умолчанию?"
+
+#: includes/admin/default-settings.php:537
+msgid "Thumbnail size"
+msgstr "Размер изображения"
+
+#: includes/admin/default-settings.php:532
+msgid "Do not display thumbnails, only text"
+msgstr "Не отображать минииатюры, только текст"
+
+#: includes/admin/default-settings.php:531
+msgid "Display only thumbnails, no text"
+msgstr "Отображать только миниатюры, без текста"
+
+#: includes/admin/default-settings.php:530
+msgid "Display thumbnails inline with posts, after title"
+msgstr "Отображать миниатюры внутри записей, после заголовка"
+
+#: includes/admin/default-settings.php:529
+msgid "Display thumbnails inline with posts, before title"
+msgstr "Отображать миниатюры внутри записей, перед заголовком"
+
+#: includes/admin/default-settings.php:524
+msgid "Location of the post thumbnail"
+msgstr "Расположение миниатюры записи"
+
+#: includes/admin/default-settings.php:453
+msgid "Open links in new window"
+msgstr "Открыть ссылки в новом окне"
+
+#: includes/admin/default-settings.php:445
+msgid "Limit post title length (in characters)"
+msgstr "Лимит символов для заголовка записи"
+
+#: includes/admin/default-settings.php:416
+msgid "Length of excerpt (in words)"
+msgstr "Длина отрывка (в словах)"
+
+#: includes/admin/default-settings.php:396
+msgid "Blank output"
+msgstr "Пустой вывод"
+
+#: includes/admin/default-settings.php:348
+msgid "Exclude Categories"
+msgstr "Исключить рубрики"
+
+#: includes/modules/class-top-ten-widget.php:102
+msgid "days"
+msgstr "дни"
+
+#: includes/admin/default-settings.php:327
+msgid "Published age of posts"
+msgstr "Возраст записей"
+
+#: includes/admin/default-settings.php:320
+msgid "Maximum number of posts that will be displayed in the list. This option is used if you don not specify the number of posts in the widget or shortcodes"
+msgstr "Максимальное количество записей, которые будут отображаться в списке. Эта опция используется, если вы не укажете количество записей в виджетах или в шорткодах"
+
+#: includes/admin/default-settings.php:283
+msgid "If you disable this then non-admins won't see the above columns or view the independent pages with the top posts."
+msgstr "Пользвоателям также будет видна статистика просмотров в таблице записей и страниц."
+
+#: includes/admin/default-settings.php:225
+msgid "This option uses JavaScript and will increase your page load time. Turn this off if you are not using caching plugins or are OK with displaying older cached counts."
+msgstr "Эта опция использует JavaScript и увеличивает время загрузки страницы. Выключите это, если вы не используете кеширующие плагины или все в порядке при отображении старых закэшированных подсчетов."
+
+#: includes/admin/default-settings.php:224
+msgid "Always display latest post count"
+msgstr "Всегда отображать счетчик посещений записи"
+
+#. translators: 1: Opening a tag, 2: Closing a tag, 3: Opening code tage, 4.
+#. Closing code tag.
+#: includes/admin/default-settings.php:211
+msgid "This text applies only when there are 0 hits for the post and it isn't a single page. e.g. if you display post views on the homepage or archives then this text will be used. To override this, just enter the same text as above option."
+msgstr "Этот текст применяется только в том случае, если запись еще не посещали и это не одна страница. Например если вы просматриваете записи на главной странице или в архивах, то этот текст будет использоваться. Чтобы переопределить это, просто введите тот же текст, что и выше."
+
+#: includes/admin/default-settings.php:209
+msgid "What to display when there are no visits?"
+msgstr "Что отображать когда посещения отсутствуют?"
+
+#: includes/admin/default-settings.php:201
+msgid "Format to display the post views"
+msgstr "Формат для отображения просмотров записей"
+
+#: includes/admin/default-settings.php:196
+msgid "Other archives"
+msgstr "Другие статьи"
+
+#: includes/admin/default-settings.php:195
+msgid "Tag archives"
+msgstr "Архивы меток"
+
+#: includes/admin/default-settings.php:194
+msgid "Category archives"
+msgstr "Архивы рубрик"
+
+#: includes/admin/default-settings.php:193
+msgid "Feeds"
+msgstr "Ленты"
+
+#: includes/admin/default-settings.php:192
+msgid "Home page"
+msgstr "Главная страница"
+
+#: includes/admin/default-settings.php:191
+msgid "Pages"
+msgstr "Страницы"
+
+#: includes/admin/default-settings.php:190
+msgid "Posts"
+msgstr "Записи"
+
+#: includes/admin/default-settings.php:181
+msgid "Display number of views on"
+msgstr "Отображать просмотры"
+
+#: includes/admin/default-settings.php:151
+msgid "Link to Top 10 plugin page"
+msgstr "Ссылка на страницу плагина"
+
+#: includes/admin/default-settings.php:145
+msgid "If selected, the meta box will be hidden from anyone who is not an Admin. By default, Contributors and above will be able to see the meta box. Applies only if the above option is selected."
+msgstr "Если отмечено, то мета-поля будут скрыты для всех, кроме админов. По умолчанию, эти поля могут видеть участники."
+
+#: includes/admin/default-settings.php:144
+msgid "Limit meta box to Admins only"
+msgstr "Только админы могут видеть мета-поля"
+
+#: includes/admin/default-settings.php:138
+msgid "This will add the Top 10 metabox on Edit Posts or Add New Posts screens. Also applies to Pages and Custom Post Types."
+msgstr "Это добавит поля опций ТОП 10 в настройках записей и страниц. Также это применяется к произвольным типам записей."
+
+#: includes/admin/default-settings.php:137
+msgid "Show metabox"
+msgstr "Показать мета-поля"
+
+#: includes/admin/default-settings.php:130
+msgid "Delete counter data on uninstall"
+msgstr "Удалить данные счетчика при удалении плагина"
+
+#: includes/admin/default-settings.php:124
+msgid "If this is checked, all settings related to Top 10 are removed from the database if you choose to uninstall/delete the plugin."
+msgstr "Если этот флажок установлен, все настройки связанные с Top 10 будут удалены из базы данных при удалении плагина."
+
+#: includes/admin/default-settings.php:123
+msgid "Delete options on uninstall"
+msgstr "Удалить параметры при удалении плагина"
+
+#: includes/admin/default-settings.php:113
+msgid "Hour(s)"
+msgstr "Час(ы)"
+
+#: includes/admin/default-settings.php:104
+msgid "Day(s)"
+msgstr "День(и)"
+
+#: includes/admin/default-settings.php:92
+msgid "Daily counter will display number of visits from midnight. This option is checked by default and mimics the way most normal counters work. Turning this off will allow you to use the hourly setting in the next option."
+msgstr "Ежедневный счетчик отобразит число посещений начиная с полуночи. Эта опция проверяется по умолчанию и имитирует работу большинства обычных счетчиков. Выключение этого параметра позволит вам использовать часовую настройку в следующей опции."
+
+#: includes/admin/default-settings.php:91
+msgid "Start daily counts from midnight"
+msgstr "Начать ежедневные подсчеты с полуночи"
+
+#: includes/admin/tools.php:78 includes/admin/tools.php:80
+msgid "Clear cache"
+msgstr "Очистить кэш"
+
+#: includes/admin/default-settings.php:78
+msgid "If activated, Top 10 will use the Transients API to cache the popular posts output for 1 hour."
+msgstr "Если активировано, Toп 10 будет использовать API Transients для кэширования популярных записей в течение 1 часа."
+
+#: includes/admin/default-settings.php:77
+msgid "Enable cache"
+msgstr "Включить кэш"
+
+#: includes/admin/default-settings.php:72
+#: includes/admin/default-settings.php:719
+msgid "Daily"
+msgstr "Ежедневно"
+
+#: includes/modules/class-top-ten-widget.php:95
+#: includes/admin/default-settings.php:71
+msgid "Overall"
+msgstr "В целом"
+
+#: includes/admin/default-settings.php:62
+msgid "Enable trackers"
+msgstr "Включить отслеживание"
+
+#: includes/admin/help-tab.php:99 includes/admin/settings-page.php:130
+msgid "Maintenance"
+msgstr "Обслуживание"
+
+#: includes/admin/help-tab.php:89 includes/admin/settings-page.php:129
+msgid "Styles"
+msgstr "Стили"
+
+#: includes/modules/class-top-ten-widget.php:129
+msgid "Thumbnail options"
+msgstr "Настройки миниатюры"
+
+#: includes/admin/class-top-ten-statistics-table.php:426
+msgid "Are you sure you want to do this"
+msgstr "Вы уверены, что хотите сделать это"
+
+#: includes/admin/class-top-ten-statistics-table.php:379
+msgid "Delete Count"
+msgstr "Удалить счет"
+
+#: includes/admin/class-top-ten-statistics-table.php:345
+msgid "Date"
+msgstr "Дата"
+
+#: includes/admin/class-top-ten-statistics-table.php:344
+msgid "Author"
+msgstr "Автор"
+
+#: includes/admin/class-top-ten-statistics-table.php:343
+msgid "Post type"
+msgstr "Тип записи"
+
+#: includes/admin/class-top-ten-statistics-table.php:342
+msgid "Daily visits"
+msgstr "Посещений в день"
+
+#: includes/admin/class-top-ten-statistics-table.php:341
+msgid "Total visits"
+msgstr "Всего посещений"
+
+#: includes/modules/class-top-ten-widget.php:80
+#: includes/modules/class-top-ten-count-widget.php:53
+#: includes/admin/class-top-ten-statistics-table.php:340
+msgid "Title"
+msgstr "Заголовок"
+
+#: includes/admin/class-top-ten-statistics-table.php:301
+msgid "Y/m/d"
+msgstr "d.m.Y"
+
+#. translators: 1. Human time difference.
+#: includes/admin/class-top-ten-statistics-table.php:299
+msgid "%s ago"
+msgstr "%s назад"
+
+#: includes/admin/class-top-ten-statistics-table.php:291
+msgid "Y/m/d g:i:s a"
+msgstr "Y/m/d g:i:s a"
+
+#: includes/admin/class-top-ten-statistics-table.php:268
+msgid "Delete"
+msgstr "Удалить"
+
+#: includes/admin/class-top-ten-statistics-table.php:267
+msgid "Edit"
+msgstr "Редактировать"
+
+#: includes/admin/class-top-ten-statistics-table.php:266
+msgid "View"
+msgstr "Просмотр"
+
+#: includes/admin/class-top-ten-statistics-table.php:215
+msgid "No popular posts available."
+msgstr "Популярные записи отсутствуют."
+
+#: includes/admin/class-top-ten-statistics-table.php:44
+msgid "popular_posts"
+msgstr "popular_posts"
+
+#: includes/admin/class-top-ten-statistics-table.php:43
+msgid "popular_post"
+msgstr "popular_post"
+
+#: includes/admin/cache.php:21
+msgid "Top 10 cache has been cleared"
+msgstr "Кэш успешно очищен"
+
+#: includes/admin/admin.php:389
+msgid "Donate"
+msgstr "Пожертвовать"
+
+#: includes/admin/admin.php:34 includes/admin/admin.php:366
+msgid "Settings"
+msgstr "Настройки"
+
+#. Plugin Name of the plugin
+#: includes/admin/admin.php:30
+msgid "Top 10"
+msgstr "Топ 10"
+
+#: includes/admin/admin.php:30 includes/admin/admin.php:34
+#: includes/admin/settings-page.php:32
+msgid "Top 10 Settings"
+msgstr "Топ 10 Настройки"
+
+#: includes/admin/sidebar.php:75
+msgid "Ajay's blog"
+msgstr "Блог Ajay"
+
+#: includes/admin/sidebar.php:60
+msgid "Reviews"
+msgstr "Отзывы"
+
+#: includes/admin/admin.php:388 includes/admin/sidebar.php:55
+msgid "Support"
+msgstr "Поддержка"
+
+#: includes/admin/sidebar.php:50
+msgid "FAQ"
+msgstr "FAQ"
+
+#: includes/admin/sidebar.php:70
+msgid "Other plugins"
+msgstr "Другие плагины"
+
+#: includes/admin/sidebar.php:39
+msgid "Quick links"
+msgstr "Быстрые ссылки"
+
+#: includes/admin/sidebar.php:88
+msgid "Follow me"
+msgstr "Читайте нас"
+
+#: includes/admin/sidebar.php:28
+msgid "Send your donation to the author of"
+msgstr "Отправьте свое пожертвование автору"
+
+#: includes/admin/sidebar.php:24
+msgid "Enter amount in USD"
+msgstr "Укажите сумму в USD"
+
+#: includes/admin/sidebar.php:22
+msgid "Donation for Top 10"
+msgstr "Пожертвование для Топ 10"
+
+#: includes/admin/sidebar.php:15
+msgid "Support the development"
+msgstr "Поддержка разработки"
+
+#: includes/admin/tools.php:62
+msgid "Post counts across blog IDs 0 and 1 have been merged"
+msgstr "Счетчики по идентификаторам 0 и 1 объединены"
+
+#: includes/admin/tools.php:55
+msgid "Duplicate rows cleaned from the tables"
+msgstr "Таблица очищена от дубляжа строк"
+
+#: includes/admin/tools.php:42
+msgid "Top 10 daily popular posts reset"
+msgstr "Популярные записи сброшены"
+
+#: includes/admin/tools.php:36
+msgid "Top 10 popular posts reset"
+msgstr "Популярные записи сброшены"
+
+#. translators: 1: Plugin name
+#: includes/admin/admin-metabox.php:145
+msgid "You have %1$s installed. If you are trying to modify the thumbnail, then you will need to make the same change in the %1$s meta box on this page."
+msgstr "У вас есть установленный %1$s. Если вы пытаетесь изменить миниатюру, вам нужно будет сделать то же самое изменение в мета-поле %1$s на этой странице."
+
+#: includes/admin/admin-metabox.php:137
+msgid "The URL above is saved in the meta field:"
+msgstr "Указанный выше URL-адрес сохраняется в мета-поле:"
+
+#: includes/admin/admin-metabox.php:136
+msgid "Enter the full URL to the image (JPG, PNG or GIF) you'd like to use. This image will be used for the post. It will be resized to the thumbnail size set under Top 10 Settings &raquo; Thumbnail options."
+msgstr "Укажите полный адрес изображения (JPG, PNG or GIF). Это изображение будет использоваться для записи. Размер изображения будет изменен согласно настроек, указанных в опциях плагина ТОП 10."
+
+#: includes/admin/admin-metabox.php:134
+msgid "Location of thumbnail:"
+msgstr "Расположение миниатюры:"
+
+#: includes/admin/admin-metabox.php:130
+msgid "If this is checked, then this post will be excluded from the popular posts list."
+msgstr "Эта запись будет исключена из популярных записей."
+
+#: includes/admin/admin-metabox.php:127
+msgid "Exclude this post from the popular posts list:"
+msgstr "Исключить эту запись из списка популярных записей:"
+
+#: includes/admin/admin-metabox.php:123
+msgid "If this is checked, then Top 10 will not display the popular posts widgets when viewing this post."
+msgstr "Если это отмечено, то Toп 10 не будет отображать виджеты популярных записей при просмотре этой записи."
+
+#: includes/admin/admin-metabox.php:120
+msgid "Disable Popular Posts display:"
+msgstr "Отключить отображение популярных записей:"
+
+#: includes/admin/admin-metabox.php:111
+msgid "Enter a number above to update the visit count. Leaving the above box blank will set the count to zero"
+msgstr "Введите число, указанное выше, чтобы обновить счетчик посещения. Если оставить поле выше пустым, то счетчик будет равен нулю"
+
+#: includes/admin/admin-metabox.php:109
+msgid "Visit count:"
+msgstr "Количество посещений:"
+
+#: includes/admin/admin.php:48 includes/admin/admin-dashboard.php:132
+msgid "Daily Popular Posts"
+msgstr "Ежедневные популярные записи"
+
+#: includes/admin/class-top-ten-statistics.php:128 includes/admin/admin.php:44
+#: includes/admin/admin-dashboard.php:127
+msgid "Popular Posts"
+msgstr "Популярные записи"
+
+#. translators: 1: Top 10 page link.
+#: includes/admin/admin-dashboard.php:78
+msgid "Popular posts by <a href=\"%s\" target=\"_blank\">Top 10 plugin</a>"
+msgstr "Популярные записи с помощью плагина <a href=\"%s\" target=\"_blank\">Топ 10</a>"
+
+#: includes/admin/admin-dashboard.php:70
+msgid "View all popular posts"
+msgstr "Просмотреть все популярные записи"
+
+#: includes/admin/admin-dashboard.php:68
+msgid "View all daily popular posts"
+msgstr "Просмотреть все ежедневные популярные записи"
+
+#: includes/admin/admin-columns.php:31
+msgid "Views"
+msgstr "Просмотры"
+
+#: includes/admin/admin-columns.php:30
+msgid "Today's Views"
+msgstr "Просмотров сегодня"
+
+#: includes/admin/admin-columns.php:29
+msgid "Total Views"
+msgstr "Всего просмотров"
